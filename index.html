@@ -1,1 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Silas Medeiros</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cybersecurity & GSOC Portfolio - Silas Medeiros">
 
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+  <style>
+    body {
+      background: #020617;
+      color: #86efac;
+      font-family: monospace;
+    }
+
+    .neon {
+      color: #22c55e;
+      text-shadow: 0 0 8px #22c55e66;
+    }
+
+    .card {
+      background: rgba(0,0,0,0.6);
+      border: 1px solid #22c55e33;
+      backdrop-filter: blur(10px);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #22c55e;
+      box-shadow: 0 0 20px #22c55e33;
+    }
+
+    .btn {
+      border: 1px solid #22c55e;
+      color: #22c55e;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #22c55e;
+      color: black;
+      box-shadow: 0 0 15px #22c55e;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="max-w-6xl mx-auto px-6 py-12">
+
+  <!-- HEADER -->
+  <div class="mb-16">
+    <h1 class="text-5xl neon">Silas Medeiros</h1>
+    <p class="mt-4 text-slate-400 max-w-xl">
+      GSOC-focused security professional with 10+ years in 24/7 operations,
+      incident response, risk mitigation, and cybersecurity.
+    </p>
+
+    <div class="mt-6 flex gap-4">
+      <a href="doc/Resume.pdf" target="_blank" class="btn px-6 py-3">
+        ▶ Open Resume
+      </a>
+
+      <a href="https://www.linkedin.com" target="_blank" class="border border-slate-600 px-6 py-3 text-slate-400 hover:text-white">
+        LinkedIn
+      </a>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="mb-16">
+    <h2 class="text-2xl neon mb-4">> About</h2>
+    <p class="text-slate-400 leading-7 max-w-3xl">
+      Background in occupational safety, risk analysis, and large-scale operations.
+      Currently focused on cybersecurity, SIEM tools, and GSOC environments.
+      Strong experience with incident handling, reporting, and decision-making under pressure.
+    </p>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="mb-16">
+    <h2 class="text-2xl neon mb-6">> Core Skills</h2>
+
+    <div class="grid md:grid-cols-3 gap-4 text-sm">
+      <div class="card p-4">GSOC / 24-7 Monitoring</div>
+      <div class="card p-4">Incident Response</div>
+      <div class="card p-4">SIEM / Splunk</div>
+      <div class="card p-4">Risk Analysis</div>
+      <div class="card p-4">Help Desk Support</div>
+      <div class="card p-4">ISO 45001</div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="mb-16">
+    <h2 class="text-2xl neon mb-6">> Experience</h2>
+
+    <div class="space-y-6">
+      <div class="card p-6">
+        <h3 class="text-green-400">Loga Waste Management</h3>
+        <p class="text-sm text-slate-500">2016 - 2018</p>
+        <p class="text-slate-400 mt-2">
+          Led safety operations, supported multi-site teams, provided help desk guidance,
+          and improved incident response processes.
+        </p>
+      </div>
+
+      <div class="card p-6">
+        <h3 class="text-green-400">Sodexo</h3>
+        <p class="text-sm text-slate-500">2015 - 2016</p>
+        <p class="text-slate-400 mt-2">
+          Managed safety programs for large-scale operations and supported risk mitigation
+          for 2,000+ employees.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="mb-16">
+    <h2 class="text-2xl neon mb-6">> Projects</h2>
+
+    <div class="grid md:grid-cols-2 gap-6">
+
+      <div class="card p-6">
+        <h3 class="text-green-400">Risk Mapping Project</h3>
+        <p class="text-slate-400 text-sm mt-2">
+          Led a team analyzing 20,000+ streets, building a risk classification system
+          that reduced accidents and improved operational decisions.
+        </p>
+      </div>
+
+      <div class="card p-6">
+        <h3 class="text-green-400">IT & Safety Implementation</h3>
+        <p class="text-slate-400 text-sm mt-2">
+          Implemented full IT and safety infrastructure for a hospital operation,
+          including network setup, systems, and training.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="text-center text-sm text-slate-500">
+    silas.medeiros@gmail.com • Utah, USA
+  </div>
+
+</div>
+
+</body>
+</html>
